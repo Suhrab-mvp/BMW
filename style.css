@@ -1,0 +1,184 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::marker{
+    list-style-type:  none; 
+}
+*::after{
+    box-sizing: inherit;
+}
+body {
+    background-color: black;
+}
+
+.header {
+    background-color: black;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    list-style-type:  none;
+}
+
+.big-container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 920px;
+    padding: 0 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    margin-top: 25px;
+}
+
+.menu-link {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+
+    transition: color 0.3s linear;
+}
+
+.menu-link:hover{
+    color: rgb(60, 155, 214);
+}
+
+.menu-list-center{
+    display: flex;
+    grid-row-gap: 0px;
+    column-gap: 40px;
+    padding-top: 25px;
+}
+
+.menu-list-right{
+    display: flex;
+    grid-row-gap: 0px;
+    column-gap: 40px;
+    padding-top: 25px;
+    }
+
+.line {
+    margin-top: 5px;
+    border-bottom: 1px solid rgb(14, 172, 246);
+}
+
+.fon {
+    background-image: url(fon-bmw.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-bottom: 350px;
+    margin-top: -590px;
+}
+
+.promo{
+    background-image: url(promo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top: 600px;
+    margin-top: 0px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.info{
+    margin-bottom: 100px;
+}
+
+.zagalovoc{
+    color: rgb(15, 15, 15);
+    text-align: center;
+    margin-left: 160px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 65px;
+    text-shadow: 2px 3px 0 rgb(0, 128, 255),
+    1px -1px 0 rgb(0, 102, 255),
+    1px 1px 0 rgb(7, 7, 7),
+   0px -1px 0 rgb(232, 231, 241);
+}
+
+.model{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    position: center;
+    display: flex;
+    padding-top: 25px;
+}
+.name-text{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    margin-bottom: 0px;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: 65px;
+}
+
+.name-text-1{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.foto-img{
+    width: 300px;
+    height: 530px;
+}
+
+.foto-1{
+    position: absolute;
+    width: 300px;
+    height: 530px;
+    margin-left: 180px;
+
+}
+
+.foto-2{
+    width: 300px;
+    height: 530px;
+    margin-left: 690px;
+    margin-top: 115px;
+}
+
+.text{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    margin-top: -380px;
+    color: white;
+    
+}
+
+.text td{
+    padding-bottom: 10px;
+}
